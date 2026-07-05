@@ -1,0 +1,17 @@
+{
+    "name": "Saffron Table",
+    "short_name": "Saffron",
+    "description": "Modern Indian restaurant website with reservations, menu highlights, and dining information.",
+    "start_url": "./",
+    "display": "standalone",
+    "background_color": "#f7efe5",
+    "theme_color": "#8c3b22",
+    "icons": [
+        {
+            "src": "assets/icons/favicon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any"
+        }
+    ]
+}

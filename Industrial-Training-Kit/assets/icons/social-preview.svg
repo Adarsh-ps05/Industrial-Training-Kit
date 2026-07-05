@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2b1611"/>
+      <stop offset="50%" stop-color="#6c2814"/>
+      <stop offset="100%" stop-color="#b66735"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="922" cy="140" r="160" fill="#d8a85a" fill-opacity="0.18"/>
+  <circle cx="170" cy="540" r="220" fill="#f7efe5" fill-opacity="0.08"/>
+  <text x="110" y="245" fill="#fef8f2" font-family="Georgia, serif" font-size="86">Saffron Table</text>
+  <text x="110" y="320" fill="#f2d6b3" font-family="Arial, sans-serif" font-size="32" letter-spacing="4">MODERN INDIAN DINING</text>
+  <text x="110" y="410" fill="#fef8f2" font-family="Arial, sans-serif" font-size="28">Seasonal menus, signature grills, cocktails, and warm hospitality.</text>
+</svg>

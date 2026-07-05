@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2b1611"/>
+      <stop offset="55%" stop-color="#8c3b22"/>
+      <stop offset="100%" stop-color="#d8a85a"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="720" fill="url(#bg)"/>
+  <circle cx="742" cy="126" r="120" fill="#fff7ef" fill-opacity=".08"/>
+  <circle cx="180" cy="610" r="180" fill="#fff7ef" fill-opacity=".08"/>
+  <ellipse cx="500" cy="392" rx="240" ry="150" fill="#f8eee0"/>
+  <ellipse cx="500" cy="392" rx="178" ry="108" fill="#fffaf4"/>
+  <circle cx="500" cy="392" r="82" fill="#8c3b22"/>
+  <circle cx="454" cy="358" r="24" fill="#d8a85a"/>
+  <circle cx="560" cy="430" r="18" fill="#f5d7a0"/>
+  <circle cx="517" cy="350" r="14" fill="#f7efe5"/>
+  <path d="M430 430c35 25 82 30 125 8" fill="none" stroke="#f5d7a0" stroke-linecap="round" stroke-width="10"/>
+  <text x="76" y="100" fill="#fff7ef" font-family="Georgia, serif" font-size="62">Signature Plating</text>
+  <text x="76" y="152" fill="#f6d7b5" font-family="Arial, sans-serif" font-size="24" letter-spacing="3">FIRE, SPICE, ATMOSPHERE</text>
+</svg>

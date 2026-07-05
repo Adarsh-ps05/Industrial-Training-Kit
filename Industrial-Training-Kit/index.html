@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saffron Table | Modern Restaurant Experience</title>
+    <meta
+        name="description"
+        content="Saffron Table is a modern restaurant website featuring signature dishes, curated menus, chef stories, reservations, testimonials, and private dining experiences."
+    >
+    <meta name="theme-color" content="#8c3b22">
+    <meta name="robots" content="index, follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Saffron Table | Modern Restaurant Experience">
+    <meta
+        property="og:description"
+        content="Explore featured dishes, filtered menus, chef recommendations, reservations, and a refined dining atmosphere at Saffron Table."
+    >
+    <meta property="og:image" content="assets/icons/social-preview.svg">
+    <meta property="og:locale" content="en_US">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header" id="top">
+        <div class="container">
+            <nav class="navbar" aria-label="Primary navigation">
+                <a class="brand" href="#top" aria-label="Saffron Table homepage">
+                    <span class="brand__mark" aria-hidden="true">ST</span>
+                    <span class="brand__text">Saffron Table</span>
+                </a>
+                <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-menu" aria-label="Open primary menu">
+                    <span class="sr-only">Open menu</span>
+                    <span class="nav-toggle__bar"></span>
+                    <span class="nav-toggle__bar"></span>
+                    <span class="nav-toggle__bar"></span>
+                </button>
+                <div class="nav-menu" id="primary-menu">
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#featured">Featured</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#chef">Chef</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <a class="button button--primary button--nav" href="#reservation">Book a Table</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="hero section" id="hero">
+            <div class="container hero__grid">
+                <div class="hero__content reveal">
+                    <p class="eyebrow">Modern dining destination</p>
+                    <h1>Signature flavors, glowing evenings, and a table worth lingering over.</h1>
+                    <p class="hero__description">
+                        Saffron Table blends contemporary Indian technique, seasonal ingredients, and warm hospitality into a
+                        restaurant experience designed for celebrations, date nights, and unforgettable group dinners.
+                    </p>
+                    <div class="hero__actions">
+                        <a class="button button--primary" href="#reservation">Reserve Your Evening</a>
+                        <a class="button button--secondary" href="#menu">Explore the Menu</a>
+                    </div>
+                    <ul class="hero__highlights" aria-label="Restaurant highlights">
+                        <li>Chef-led tasting menu</li>
+                        <li>Daily cocktail pairings</li>
+                        <li>Private dining suite</li>
+                    </ul>
+                </div>
+                <div class="hero__visual reveal reveal--delay">
+                    <picture class="media-frame media-frame--hero">
+                        <source
+                            srcset="assets/images/hero-plating.svg"
+                            media="(min-width: 768px)"
+                        >
+                        <img
+                            src="assets/images/hero-plating.svg"
+                            alt="Signature plated dish with warm restaurant lighting"
+                            width="960"
+                            height="720"
+                            sizes="(min-width: 1024px) 42vw, (min-width: 768px) 46vw, 100vw"
+                            decoding="async"
+                            fetchpriority="high"
+                        >
+                    </picture>
+                    <div class="hero__card" aria-label="Restaurant highlights card">
+                        <p class="hero__card-label">Tonight's atmosphere</p>
+                        <h2>Fire-kissed plates and refined comfort in every course.</h2>
+                        <p>
+                            Join us for a dinner service shaped by wood-fired grilling, layered spice, handcrafted desserts,
+                            and a service team focused on thoughtful detail.
+                        </p>
+                        <div class="hero__metrics">
+                            <div>
+                                <strong>4.9</strong>
+                                <span>Average rating</span>
+                            </div>
+                            <div>
+                                <strong>18</strong>
+                                <span>Signature dishes</span>
+                            </div>
+                            <div>
+                                <strong>7 PM</strong>
+                                <span>Peak service</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="about">
+            <div class="container about-grid">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">About Saffron Table</p>
+                    <h2>Built around intimate hospitality, vibrant plating, and ingredient-first cooking.</h2>
+                    <p>
+                        Every detail of our restaurant is crafted to feel elevated yet inviting. From bright small plates
+                        and charcoal-grilled mains to polished service and warm lighting, Saffron Table is designed to slow time down.
+                    </p>
+                </div>
+                <div class="story-grid">
+                    <article class="panel panel--soft reveal">
+                        <h3>Seasonal sourcing</h3>
+                        <p>We work with nearby farms and premium suppliers to keep our menu fresh, expressive, and ingredient-led.</p>
+                    </article>
+                    <article class="panel panel--soft reveal reveal--delay">
+                        <h3>Modern techniques</h3>
+                        <p>Traditional spice profiles meet contemporary cooking methods, plating, and beverage pairings.</p>
+                    </article>
+                    <article class="panel panel--soft reveal reveal--delay-2">
+                        <h3>Memorable occasions</h3>
+                        <p>From anniversaries to business dinners, our dining room is built for gatherings that deserve atmosphere.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--accent" id="featured">
+            <div class="container">
+                <div class="section-heading section-heading--split reveal">
+                    <div>
+                        <p class="eyebrow">Featured dishes</p>
+                        <h2>Guest favorites that define the house style.</h2>
+                    </div>
+                    <p>
+                        A curated selection of standout starters, mains, and desserts chosen for their balance, texture, and bold finish.
+                    </p>
+                </div>
+                <div class="featured-grid">
+                    <article class="featured-card reveal">
+                        <span class="featured-card__tag">Starter</span>
+                        <h3>Smoked Paneer Tikka</h3>
+                        <p>Charred cottage cheese, coriander oil, mint yogurt, and quick-pickled onion.</p>
+                        <strong>$16</strong>
+                    </article>
+                    <article class="featured-card featured-card--accent reveal reveal--delay">
+                        <span class="featured-card__tag">Chef special</span>
+                        <h3>Coal-Roasted Lamb Chops</h3>
+                        <p>Chili glaze, cumin jus, heirloom carrots, and saffron yogurt with a smoky finish.</p>
+                        <strong>$29</strong>
+                    </article>
+                    <article class="featured-card reveal reveal--delay-2">
+                        <span class="featured-card__tag">Dessert</span>
+                        <h3>Cardamom Tres Leches</h3>
+                        <p>Rose cream, pistachio crumble, and warm spice notes layered into every bite.</p>
+                        <strong>$12</strong>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="menu">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Menu</p>
+                    <h2>Filter the menu by mood, course, or pour.</h2>
+                    <p>
+                        Browse our all-day favorites and dinner signatures with quick category filters for starters, mains,
+                        desserts, and cocktails.
+                    </p>
+                </div>
+                <div class="menu-toolbar reveal" role="toolbar" aria-label="Menu categories">
+                    <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All</button>
+                    <button class="filter-button" type="button" data-filter="starters" aria-pressed="false">Starters</button>
+                    <button class="filter-button" type="button" data-filter="mains" aria-pressed="false">Mains</button>
+                    <button class="filter-button" type="button" data-filter="desserts" aria-pressed="false">Desserts</button>
+                    <button class="filter-button" type="button" data-filter="cocktails" aria-pressed="false">Cocktails</button>
+                </div>
+                <div class="menu-grid reveal reveal--delay" id="menu-grid">
+                    <article class="menu-card" data-category="starters">
+                        <div class="menu-card__top">
+                            <h3>Smoked Paneer Tikka</h3>
+                            <span>$16</span>
+                        </div>
+                        <p>Charred cottage cheese, mint yogurt, pickled onion, and coriander oil.</p>
+                    </article>
+                    <article class="menu-card" data-category="starters">
+                        <div class="menu-card__top">
+                            <h3>Crisp Lotus Root Chaat</h3>
+                            <span>$14</span>
+                        </div>
+                        <p>Tamarind glaze, yogurt, herbs, and sev with a bright, crunchy finish.</p>
+                    </article>
+                    <article class="menu-card" data-category="mains">
+                        <div class="menu-card__top">
+                            <h3>Malabar Prawn Curry</h3>
+                            <span>$24</span>
+                        </div>
+                        <p>Tiger prawns in coconut curry with curry leaf, green chili, and tamarind.</p>
+                    </article>
+                    <article class="menu-card" data-category="mains">
+                        <div class="menu-card__top">
+                            <h3>Coal-Roasted Lamb Chops</h3>
+                            <span>$29</span>
+                        </div>
+                        <p>Chili glaze, cumin jus, roasted vegetables, and saffron yogurt.</p>
+                    </article>
+                    <article class="menu-card" data-category="mains">
+                        <div class="menu-card__top">
+                            <h3>Black Garlic Butter Chicken</h3>
+                            <span>$26</span>
+                        </div>
+                        <p>Silky makhani sauce with black garlic, fenugreek, and flaky paratha.</p>
+                    </article>
+                    <article class="menu-card" data-category="desserts">
+                        <div class="menu-card__top">
+                            <h3>Cardamom Tres Leches</h3>
+                            <span>$12</span>
+                        </div>
+                        <p>Spiced milk sponge, pistachio crumble, and rose cream.</p>
+                    </article>
+                    <article class="menu-card" data-category="desserts">
+                        <div class="menu-card__top">
+                            <h3>Dark Chocolate Kulfi</h3>
+                            <span>$11</span>
+                        </div>
+                        <p>Frozen cardamom cream, cocoa nibs, and sea salt caramel.</p>
+                    </article>
+                    <article class="menu-card" data-category="cocktails">
+                        <div class="menu-card__top">
+                            <h3>Smoked Tamarind Old Fashioned</h3>
+                            <span>$15</span>
+                        </div>
+                        <p>Bourbon, tamarind reduction, jaggery, bitters, and aromatic smoke.</p>
+                    </article>
+                    <article class="menu-card" data-category="cocktails">
+                        <div class="menu-card__top">
+                            <h3>Saffron Sunset Spritz</h3>
+                            <span>$14</span>
+                        </div>
+                        <p>Saffron cordial, sparkling wine, citrus peel, and floral bitters.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--accent" id="chef">
+            <div class="container chef-grid">
+                <article class="chef-card panel reveal">
+                    <p class="eyebrow">Meet the chef</p>
+                    <h2>Chef Adarsh</h2>
+                    <p>
+                        Chef Adarsh's cooking draws from regional Indian kitchens, fine-dining precision, and a love for flame,
+                        acid, and layered spice. His menus are built to feel elegant, expressive, and deeply satisfying.
+                    </p>
+                    <ul class="chef-notes">
+                        <li>15 years of global kitchen experience</li>
+                        <li>Seasonal tasting menus updated monthly</li>
+                        <li>Specializes in fire-led mains and modern desserts</li>
+                    </ul>
+                </article>
+                <aside class="chef-quote reveal reveal--delay" aria-label="Chef quote">
+                    <picture class="media-frame media-frame--chef">
+                        <img
+                            src="assets/images/chef-adarsh.jpg"
+                            alt="Portrait of Chef Adarsh in chef uniform"
+                            width="1152"
+                            height="1536"
+                            sizes="(min-width: 1024px) 36vw, (min-width: 768px) 44vw, 100vw"
+                            loading="lazy"
+                            decoding="async"
+                        >
+                    </picture>
+                    <blockquote class="chef-quote__text">
+                        <p>"The best meals leave space for surprise, comfort, and conversation at the same table."</p>
+                    </blockquote>
+                </aside>
+            </div>
+        </section>
+
+        <section class="section section--gallery" id="gallery" aria-labelledby="gallery-title">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Gallery</p>
+                    <h2 id="gallery-title">A closer look at the room, the plating, and the mood.</h2>
+                </div>
+                <div class="gallery-grid reveal reveal--delay" role="list">
+                    <button class="gallery-card gallery-card--large" type="button" data-lightbox-image="assets/images/open-kitchen-glow.png" data-lightbox-title="Open kitchen glow" aria-label="Open lightbox for Open kitchen glow" role="listitem">
+                        <img
+                            src="assets/images/open-kitchen-glow.png"
+                            alt="Chef cooking in an open kitchen with warm lighting and guests in the background"
+                            width="315"
+                            height="560"
+                            sizes="(min-width: 1024px) 36vw, (min-width: 640px) 48vw, 100vw"
+                            loading="lazy"
+                            decoding="async"
+                        >
+                        <span>Open kitchen glow</span>
+                    </button>
+                    <button class="gallery-card" type="button" data-lightbox-image="assets/images/hero-plating.svg" data-lightbox-title="Evening cocktails" aria-label="Open lightbox for Evening cocktails" role="listitem"><span>Evening cocktails</span></button>
+                    <button class="gallery-card" type="button" data-lightbox-image="assets/images/hero-plating.svg" data-lightbox-title="Chef's plating" aria-label="Open lightbox for Chef's plating" role="listitem"><span>Chef's plating</span></button>
+                    <button class="gallery-card" type="button" data-lightbox-image="assets/images/dining-room.svg" data-lightbox-title="Private events" aria-label="Open lightbox for Private events" role="listitem"><span>Private events</span></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="testimonials">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Testimonials</p>
+                    <h2>What guests remember most after dinner.</h2>
+                </div>
+                <div class="testimonial-slider reveal reveal--delay" aria-label="Guest testimonials">
+                    <div class="testimonial-slider__viewport">
+                        <div class="testimonial-grid testimonial-track" id="testimonial-track">
+                            <article class="testimonial-card panel panel--soft is-active" data-slide="0">
+                                <p>"Every course felt intentional. The service was warm, the cocktails were excellent, and the lamb was unforgettable."</p>
+                                <strong>Priya S.</strong>
+                                <span class="testimonial-card__meta">Anniversary dinner</span>
+                            </article>
+                            <article class="testimonial-card panel panel--soft" data-slide="1">
+                                <p>"Perfect for an anniversary dinner. Elegant without being stiff, and the tasting menu was genuinely exciting."</p>
+                                <strong>Daniel R.</strong>
+                                <span class="testimonial-card__meta">Chef's tasting guest</span>
+                            </article>
+                            <article class="testimonial-card panel panel--soft" data-slide="2">
+                                <p>"The atmosphere alone is worth the visit, but the desserts and spice balance made us plan our next booking immediately."</p>
+                                <strong>Elena M.</strong>
+                                <span class="testimonial-card__meta">Weekend reservation</span>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="testimonial-slider__controls">
+                        <button class="slider-button" type="button" id="testimonial-prev" aria-label="Previous testimonial">Prev</button>
+                        <div class="slider-dots" aria-label="Select testimonial">
+                            <button class="slider-dot is-active" type="button" data-slide-target="0" aria-label="Go to testimonial 1" aria-pressed="true"></button>
+                            <button class="slider-dot" type="button" data-slide-target="1" aria-label="Go to testimonial 2" aria-pressed="false"></button>
+                            <button class="slider-dot" type="button" data-slide-target="2" aria-label="Go to testimonial 3" aria-pressed="false"></button>
+                        </div>
+                        <button class="slider-button" type="button" id="testimonial-next" aria-label="Next testimonial">Next</button>
+                    </div>
+                    <p class="sr-only" id="testimonial-status" aria-live="polite"></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--accent" id="reservation">
+            <div class="container reservation-grid">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Reservations</p>
+                    <h2>Reserve a table for dinner, drinks, or a special occasion.</h2>
+                    <p>
+                        Share your preferred time, party size, and special notes. Our team will confirm availability as quickly as possible.
+                    </p>
+                </div>
+                <form class="reservation-form panel reveal reveal--delay" id="booking-form" novalidate>
+                    <div class="form-field">
+                        <label for="guest-name">Full name</label>
+                        <input id="guest-name" name="guestName" type="text" autocomplete="name" required minlength="2">
+                    </div>
+                    <div class="form-field">
+                        <label for="guest-email">Email address</label>
+                        <input id="guest-email" name="guestEmail" type="email" autocomplete="email" required>
+                    </div>
+                    <div class="form-grid">
+                        <div class="form-field">
+                            <label for="reservation-date">Date</label>
+                            <input id="reservation-date" name="reservationDate" type="date" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="reservation-time">Time</label>
+                            <select id="reservation-time" name="reservationTime" required>
+                                <option value="">Select</option>
+                                <option>5:00 PM</option>
+                                <option>6:30 PM</option>
+                                <option>8:00 PM</option>
+                                <option>9:30 PM</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-grid">
+                        <div class="form-field">
+                            <label for="guest-count">Guests</label>
+                            <select id="guest-count" name="guestCount" required>
+                                <option value="">Select</option>
+                                <option>2 Guests</option>
+                                <option>4 Guests</option>
+                                <option>6 Guests</option>
+                                <option>8+ Guests</option>
+                            </select>
+                        </div>
+                        <div class="form-field">
+                            <label for="occasion">Occasion</label>
+                            <input id="occasion" name="occasion" type="text" placeholder="Birthday, anniversary, business dinner" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="form-field">
+                        <label for="special-request">Special request</label>
+                        <textarea id="special-request" name="specialRequest" rows="4" placeholder="Dietary notes, seating preferences, accessibility needs" maxlength="300"></textarea>
+                    </div>
+                    <button class="button button--primary button--full" type="submit">Request Reservation</button>
+                    <p class="form-message" id="form-message" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+
+        <section class="section" id="faq">
+            <div class="container faq-grid">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">FAQ</p>
+                    <h2>Helpful details before your visit.</h2>
+                </div>
+                <div class="faq-list reveal reveal--delay" id="faq-list">
+                    <details class="faq-item" data-accordion-item>
+                        <summary>Do you offer vegetarian and vegan options?</summary>
+                        <p>Yes. We offer multiple vegetarian dishes and can guide you through vegan-friendly options on request.</p>
+                    </details>
+                    <details class="faq-item" data-accordion-item>
+                        <summary>Is there a dress code?</summary>
+                        <p>Smart casual is recommended. We want guests to feel comfortable while matching the evening atmosphere.</p>
+                    </details>
+                    <details class="faq-item" data-accordion-item>
+                        <summary>Can I book the restaurant for private events?</summary>
+                        <p>Yes. Our private dining area is available for birthdays, corporate dinners, and intimate celebrations.</p>
+                    </details>
+                    <details class="faq-item" data-accordion-item>
+                        <summary>Do you accommodate allergies?</summary>
+                        <p>Absolutely. Please note allergies in your reservation or speak with our team on arrival so we can help safely.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--accent" id="contact">
+            <div class="container contact-grid">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Contact</p>
+                    <h2>Plan your visit or get in touch with our team.</h2>
+                    <p>
+                        Whether you're arranging a quiet dinner, a larger group booking, or a private event, we're happy to help.
+                    </p>
+                </div>
+                <div class="contact-panels reveal reveal--delay">
+                    <article class="panel">
+                        <h3>Visit us</h3>
+                        <address>245 Cedar Avenue, Downtown District, New York, NY 10001</address>
+                    </article>
+                    <article class="panel">
+                        <h3>Reach us</h3>
+                        <p><a href="tel:+12125550189">(212) 555-0189</a><br><a href="mailto:hello@saffrontable.com">hello@saffrontable.com</a></p>
+                    </article>
+                    <article class="panel">
+                        <h3>Opening hours</h3>
+                        <p>Monday to Thursday: 5 PM - 10 PM<br>Friday to Sunday: 5 PM - 11 PM</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <a class="brand brand--footer" href="#top">
+                    <span class="brand__mark" aria-hidden="true">ST</span>
+                    <span class="brand__text">Saffron Table</span>
+                </a>
+                <p class="footer-copy">Modern dining, seasonal menus, craft cocktails, and memorable hospitality in the city.</p>
+            </div>
+            <div>
+                <h2 class="footer-title">Navigate</h2>
+                <ul class="footer-list">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="footer-title">Reservations</h2>
+                <ul class="footer-list">
+                    <li><a href="#reservation">Book a table</a></li>
+                    <li><a href="#faq">Read our FAQ</a></li>
+                    <li><a href="#contact">Contact the team</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="footer-title">Hours</h2>
+                <ul class="footer-list">
+                    <li>Mon - Thu: 5 PM - 10 PM</li>
+                    <li>Fri - Sun: 5 PM - 11 PM</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <div class="lightbox" id="gallery-lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="lightbox-title">
+        <div class="lightbox__backdrop" data-lightbox-close></div>
+        <div class="lightbox__dialog" tabindex="-1">
+            <button class="lightbox__close" type="button" data-lightbox-close aria-label="Close gallery preview">Close</button>
+            <img class="lightbox__image" id="lightbox-image" src="" alt="">
+            <p class="lightbox__title" id="lightbox-title"></p>
+        </div>
+    </div>
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Restaurant",
+            "name": "Saffron Table",
+            "image": "assets/icons/social-preview.svg",
+            "url": "/",
+            "telephone": "+1-212-555-0189",
+            "servesCuisine": ["Indian", "Contemporary"],
+            "priceRange": "$$$",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "245 Cedar Avenue",
+                "addressLocality": "New York",
+                "addressRegion": "NY",
+                "postalCode": "10001",
+                "addressCountry": "US"
+            },
+            "acceptsReservations": true
+        }
+    </script>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2d1712"/>
+      <stop offset="50%" stop-color="#6c2814"/>
+      <stop offset="100%" stop-color="#c07a42"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <circle cx="208" cy="148" r="52" fill="#f8d596"/>
+  <circle cx="600" cy="148" r="52" fill="#f8d596"/>
+  <circle cx="992" cy="148" r="52" fill="#f8d596"/>
+  <rect x="120" y="282" width="960" height="480" rx="34" fill="#1f120d" fill-opacity=".22"/>
+  <rect x="175" y="534" width="228" height="108" rx="22" fill="#f7efe5" fill-opacity=".18"/>
+  <rect x="487" y="480" width="228" height="108" rx="22" fill="#f7efe5" fill-opacity=".18"/>
+  <rect x="798" y="548" width="228" height="108" rx="22" fill="#f7efe5" fill-opacity=".18"/>
+  <path d="M110 740h980" stroke="#f7efe5" stroke-opacity=".28" stroke-width="10"/>
+  <text x="110" y="108" fill="#fff7ef" font-family="Georgia, serif" font-size="62">Dining Room</text>
+  <text x="110" y="160" fill="#f6d7b5" font-family="Arial, sans-serif" font-size="22" letter-spacing="3">WARM LIGHTING, OPEN KITCHEN, PRIVATE EVENTS</text>
+</svg>
